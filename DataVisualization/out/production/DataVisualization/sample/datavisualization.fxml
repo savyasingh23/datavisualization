@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="880.0" style="-fx-background-color: #E5E7E9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane dividerPositions="0.28391959798994976" orientation="VERTICAL" prefHeight="700.0" prefWidth="880.0">
+        <items>
+          <AnchorPane fx:id="anchorPane1" minHeight="0.0" minWidth="0.0" prefHeight="205.0" prefWidth="878.0" style="-fx-background-color: #0B5345;">
+               <children>
+                  <Button fx:id="pieChartButton" layoutX="251.0" layoutY="138.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #E8F6F3;" text="Pie Chart">
+                     <font>
+                        <Font name="Calibri" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="barGraph" layoutX="251.0" layoutY="87.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #E8F6F3;" text="Bar Graph">
+                     <font>
+                        <Font name="Calibri" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="lineGraph" layoutX="364.0" layoutY="138.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #E8F6F3;" text="Line Graph">
+                     <font>
+                        <Font name="Calibri" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="areaGraph" layoutX="363.0" layoutY="87.0" mnemonicParsing="false" style="-fx-background-color: #E8F6F3;" text="Area Graph">
+                     <font>
+                        <Font name="Calibri" size="15.0" />
+                     </font></Button>
+                  <ChoiceBox fx:id="choiceBox1" layoutX="40.0" layoutY="87.0" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: #ffffff;" />
+                  <ChoiceBox fx:id="choiceBox2" layoutX="40.0" layoutY="138.0" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: #ffffff;" />
+                  <Label alignment="CENTER" layoutX="180.0" layoutY="5.0" prefHeight="48.0" prefWidth="495.0" text="Data Visualization Software" textAlignment="CENTER" textFill="#fffffffc">
+                     <font>
+                        <Font name="Microsoft Himalaya" size="55.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="insertData" layoutX="527.0" layoutY="87.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #E5E7E9;" text="Insert Data ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="showData" layoutX="699.0" layoutY="138.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #E5E7E9;" text="Show Data">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="updateData" layoutX="527.0" layoutY="138.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #E5E7E9;" text="Update Data ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="deleteData" layoutX="699.0" layoutY="87.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #E5E7E9;" text="Delete Data">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="anchorPane2" minHeight="0.0" minWidth="0.0" prefHeight="507.0" prefWidth="880.0" style="-fx-background-color: #E5E7E9;">
+               <children>
+                  <Pane fx:id="pane" layoutX="156.0" prefHeight="497.0" prefWidth="583.0" style="-fx-background-color: #E5E7E9;">
+                     <children>
+                        <Label fx:id="paneLabel" alignment="CENTER" layoutX="1.0" layoutY="413.0" prefHeight="40.0" prefWidth="416.0" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                     </children></Pane>
+                  <Label layoutX="712.0" layoutY="458.0" prefHeight="17.0" prefWidth="157.0" text="Developed by Savya Singh" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
